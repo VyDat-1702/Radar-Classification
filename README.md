@@ -1,0 +1,5 @@
+Radar-Communication Waveform Classification
+The convergence of radar and communications systems in 6G networks creates a significant challenge: spectrum congestion. To address this issue, we propose a deep learning-based approach for efficient waveform classification, which is critical for resource-constrained cognitive radio-enabled Internet of Things (CR-IoT) devices. We construct a cost-effective deep convolutional neural network that can efficiently learn basic radio features from time-frequency representations. The model leverages attention modules that significantly reduce the complexity of the network while maintaining classification accuracy. Extensive simulations on an attenuated signal dataset containing eight types of radar and communications waveforms demonstrate the effectiveness of the network.
+![image](https://github.com/user-attachments/assets/95371078-aac9-4167-a7ce-4f8eb302d759)
+![image](https://github.com/user-attachments/assets/c080b990-39a7-4787-be43-9865007a1c76)
+![image](https://github.com/user-attachments/assets/973392a2-54e2-4ee3-9029-5413f049199c)
