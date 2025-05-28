@@ -11,7 +11,8 @@ Maintain high classification accuracy
 Dataset & Evaluation
 Our experiments are conducted on a dataset of attenuated signals consisting of eight types of radar and communication waveforms. Extensive simulations demonstrate the effectiveness and efficiency of the proposed network in classifying various signal types under realistic channel conditions.
 
-Model Highlights
+Model Highlights:
+
 Time-Frequency Representation (TFR) input
 
 Lightweight CNN architecture
