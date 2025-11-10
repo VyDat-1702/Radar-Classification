@@ -94,15 +94,15 @@ python classify.py --signal_path ./test_signal.npy
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/95371078-aac9-4167-a7ce-4f8eb302d759" alt="TFR Sample 1" width="500"/>
-  <p><i>Time-Frequency Representation Example 1</i></p>
+  <p><i>Model Architechture</i></p>
   <br/>
   
   <img src="https://github.com/user-attachments/assets/c080b990-39a7-4787-be43-9865007a1c76" alt="TFR Sample 2" width="500"/>
-  <p><i>Time-Frequency Representation Example 2</i></p>
+  <p><i>Residual CBAM module</i></p>
   <br/>
   
   <img src="https://github.com/user-attachments/assets/973392a2-54e2-4ee3-9029-5413f049199c" alt="Model Performance" width="500"/>
-  <p><i>Classification Performance Metrics</i></p>
+  <p><i>Multi scale module</i></p>
 </div>
 
 ## Performance Metrics
