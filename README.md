@@ -38,60 +38,6 @@ We propose a cost-effective deep convolutional neural network (CNN) that:
 
 ## Model Architecture
 
-```
-Input: Time-Frequency Representation (TFR)
-    ↓
-Convolutional Layers (Lightweight)
-    ↓
-Attention Modules
-    ↓
-Classification Layer
-    ↓
-Output: Waveform Type (8 classes)
-```
-
-**Advantages**:
-- Reduced computational complexity
-- High classification accuracy
-- Suitable for real-time processing
-- Low memory footprint
-
-## Requirements
-
-```
-python >= 3.8
-tensorflow >= 2.8
-numpy
-matplotlib
-scipy
-```
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/radar-comm-classification.git
-cd radar-comm-classification
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## Usage
-
-```python
-# Train the model
-python train.py --data_path ./dataset --epochs 100
-
-# Evaluate on test set
-python evaluate.py --model_path ./checkpoints/best_model.h5
-
-# Classify a single signal
-python classify.py --signal_path ./test_signal.npy
-```
-
-## Results
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/95371078-aac9-4167-a7ce-4f8eb302d759" alt="TFR Sample 1" width="500"/>
   <p><i>Model Architechture</i></p>
@@ -101,10 +47,23 @@ python classify.py --signal_path ./test_signal.npy
   <p><i>Residual CBAM module</i></p>
   <br/>
   
-  <img src="https://github.com/user-attachments/assets/973392a2-54e2-4ee3-9029-5413f049199c" alt="Model Performance" width="500"/>
+  <img src="https://github.com/user-attachments/assets/973392a2-54e2-4ee3-9029-5413f049199c" alt="Model Performance" width="300"/>
   <p><i>Multi scale module</i></p>
 </div>
 
+
+**Advantages**:
+- Reduced computational complexity
+- High classification accuracy
+- Suitable for real-time processing
+- Low memory footprint
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/radar-comm-classification.git
+```
 ## Performance Metrics
 
 Our model demonstrates:
@@ -133,10 +92,5 @@ Our model demonstrates:
 
 This research contributes to the advancement of 6G cognitive radio technologies and efficient spectrum management for IoT devices.
 
-## Contact
-
-For questions or collaboration, please open an issue in this repository.
-
----
 
 **Note**: This is a research project focused on efficient waveform classification for next-generation wireless networks.
